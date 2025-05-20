@@ -1,7 +1,7 @@
 {
   "name": "interview-guide",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "https://Linsaym.github.io/interview-guide",
+  "homepage": "https://linsaym.github.io/interview-guide/",
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
     "react": "^19.1.0",
