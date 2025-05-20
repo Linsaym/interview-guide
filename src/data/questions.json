@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "question": "Что такое Virtual DOM?",
+    "answer": "Это легковесная копия реального DOM...",
+    "category": "React",
+    "level": "junior",
+    "tags": [
+      "react",
+      "core"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Как работает Vue reactivity?",
+    "answer": "На основе Proxy-объектов...",
+    "category": "Vue",
+    "level": "middle",
+    "tags": [
+      "vue",
+      "core"
+    ]
+  }
+]
