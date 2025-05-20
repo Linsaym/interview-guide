@@ -20,5 +20,22 @@
       "vue",
       "core"
     ]
+  },
+  {
+    "id": 101,
+    "question": "Что такое всплытие событий (event bubbling)?",
+    "answer": "Механизм, при котором событие сначала срабатывает на самом вложенном элементе, а затем последовательно на всех его родителях вверх по DOM-дереву.",
+    "category": "JavaScript",
+    "level": "middle",
+    "tags": [
+      "events",
+      "DOM"
+    ],
+    "examples": [
+      {
+        "code": "element.addEventListener('click', (e) => e.stopPropagation());",
+        "description": "Остановка всплытия"
+      }
+    ]
   }
 ]

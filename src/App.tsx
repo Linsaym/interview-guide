@@ -26,7 +26,7 @@ export default function App() {
                 <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
                     Interview Guide
                 </h1>
-                <p className="mt-2 text-gray-400">Подготовка к собеседованиям по фронтенду</p>
+                <p className="mt-2 text-gray-400">Подготовка к собеседованиям для разработчиков</p>
             </header>
 
             {/* Фильтры */}

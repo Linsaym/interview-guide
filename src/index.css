@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 @layer utilities {
-    /* Кастомный скроллбар */
     .scrollbar-dark::-webkit-scrollbar {
-        width: 8px;
+        @apply w-2;
     }
 
     .scrollbar-dark::-webkit-scrollbar-track {
@@ -20,6 +19,11 @@
     .animate-fade-in {
         animation: fadeIn 0.3s ease-out;
     }
+}
+
+/* Глобальные стили для тёмной темы */
+body {
+    @apply bg-dark-bg text-dark-text;
 }
 
 @keyframes fadeIn {

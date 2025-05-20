@@ -34,7 +34,6 @@ export const QuestionCard = ({
                 <p className="text-gray-200 leading-relaxed">{answer}</p>
             </div>
 
-            {/* Теги (только если они есть) */}
             {tags && tags.length > 0 && (
                 <div className="mt-4 flex flex-wrap gap-2">
                     {tags.map(tag => (
