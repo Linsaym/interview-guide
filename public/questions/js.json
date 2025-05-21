@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "question": "Какая разница между let, const и var в JavaScript?",
+    "answer": "let и const имеют блочную область видимости (block scope), тогда как var — функциональную (function scope). const нельзя переопределять, а var и let можно. var «всплывает» (hoisting), но инициализируется как undefined, а let/const тоже всплывают, но не инициализируются до объявления.",
+    "category": "JavaScript",
+    "level": "junior",
+    "tags": [
+      "variables",
+      "scope"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Что такое замыкание (closure) в JavaScript?",
+    "answer": "Замыкание — это функция, которая сохраняет доступ к переменным из своей внешней (лексической) области видимости, даже после того, как внешняя функция завершила выполнение. Это позволяет создавать приватные переменные и управлять состоянием.",
+    "category": "JavaScript",
+    "level": "junior",
+    "tags": [
+      "closures",
+      "functions"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Как работает событийный цикл (event loop) в JavaScript?",
+    "answer": "Event loop обрабатывает асинхронные операции. Он помещает коллбэки из очереди задач (task queue) в стек вызовов (call stack), когда последний пуст. Приоритет отдаётся микрозадачам (microtasks, например, Promise.then), которые выполняются перед макрозадачами (setTimeout, setInterval).",
+    "category": "JavaScript",
+    "level": "junior",
+    "tags": [
+      "async",
+      "event-loop"
+    ]
+  }
+]

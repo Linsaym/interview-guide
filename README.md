@@ -61,19 +61,28 @@ Vue, React, JavaScript, PHP, алгоритмы).
 ## 📂 Структура проекта
 
 ```
-src/
-├── components/   # React-компоненты
-├── data/         # База вопросов в JSON
-├── hooks/        # Кастомные хуки
-├── styles/       # Глобальные стили
-├── App.tsx       # Основной компонент
-└── main.tsx      # Точка входа
+project-root/
+├── public/
+│   ├── questions/       # Вопросы по категориям
+│   │   ├── react.json   # Вопросы по React
+│   │   ├── vue.json     # Вопросы по Vue
+│   │   └── ...
+│   └── answers/         # Ответы на вопросы
+│       ├── 101.json    
+│       ├── 102.json    
+│       └── ...
+└── src/
+    ├── components/      # React-компоненты
+    ├── hooks/           # Кастомные хуки
+    ├── styles/          # Глобальные стили
+    ├── App.tsx          # Основной компонент
+    └── main.tsx         # Точка входа
 ```
 
 ## 🤝 Как помочь проекту
 
-1. Добавьте новые вопросы через Pull Request
-2. Сообщите об ошибках в Issues
+1. Добавляйте изменения открывая Pull Request
+2. Сообщайте об ошибках в Issues
 3. Предложите улучшения интерфейса
 
 **Сайт**: [https://linsaym.github.io/interview-guide](https://linsaym.github.io/interview-guide)

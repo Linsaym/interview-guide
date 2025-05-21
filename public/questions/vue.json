@@ -1,0 +1,79 @@
+[
+  {
+    "id": 15,
+    "question": "Что такое экземпляр Vue и как его создать?",
+    "answer": "Экземпляр Vue — корневой объект, который связывает DOM с логикой приложения. Создается через `new Vue({ options })`. В опциях указывают data, methods, computed, хуки жизненного цикла и другие настройки. В Vue 3 вместо `new Vue()` используют `createApp()` для создания экземпляра.",
+    "category": "Vue",
+    "level": "junior",
+    "tags": [
+      "core",
+      "instance"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Чем отличается Vue 2 от Vue 3?",
+    "answer": "Основные отличия: 1) Composition API (альтернатива Options API). 2) Teleport для рендера вне текущего DOM-дерева. 3) Несколько корневых элементов в шаблоне. 4) Улучшенная реактивность на основе Proxy. 5) Удаление фильтров (filters) и изменение работы миксинов.",
+    "category": "Vue",
+    "level": "junior",
+    "tags": [
+      "versions",
+      "core"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Что такое жизненный цикл компонента Vue?",
+    "answer": "Жизненный цикл — последовательность этапов от создания до удаления компонента. Основные хуки: `beforeCreate`, `created` (данные готовы), `beforeMount`, `mounted` (DOM смонтирован), `beforeUpdate`, `updated`, `beforeUnmount`, `unmounted` (Vue 3). Позволяют выполнять код на определенных этапах.",
+    "category": "Vue",
+    "level": "junior",
+    "tags": [
+      "lifecycle",
+      "components"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Зачем нужны computed-свойства и чем они отличаются от методов?",
+    "answer": "Computed-свойства кешируют результат вычислений и обновляются только при изменении зависимостей. Методы вызываются при каждом рендере. Пример: `computed: { total() { return this.items.length } }`. Используют для оптимизации, чтобы избежать повторных вычислений.",
+    "category": "Vue",
+    "level": "junior",
+    "tags": [
+      "computed",
+      "optimization"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Как работает Vue Router?",
+    "answer": "Vue Router — библиотека для навигации между компонентами (страницами). Настраивается через routes: `{ path: '/', component: Home }`. Для перехода используют `<router-link>` или `router.push()`. Динамические сегменты (например, `/user/:id`) доступны через `$route.params`.",
+    "category": "Vue",
+    "level": "junior",
+    "tags": [
+      "router",
+      "spa"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Что такое Vuex и зачем он нужен?",
+    "answer": "Vuex — хранилище состояния (state management) для централизованного управления данными в приложении. Состоит из: state (данные), mutations (синхронные изменения), actions (асинхронные операции), getters (вычисляемые значения). Решает проблему передачи props между компонентами на разных уровнях.",
+    "category": "Vue",
+    "level": "junior",
+    "tags": [
+      "vuex",
+      "state-management"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Чем отличается директива v-if от v-show?",
+    "answer": "v-if полностью удаляет/добавляет элемент в DOM, если условие ложно. v-show скрывает элемент через CSS (display: none). v-if эффективен для редких переключений, v-show — для частых. v-if поддерживает `<template>` и `v-else`, v-show — нет.",
+    "category": "Vue",
+    "level": "junior",
+    "tags": [
+      "directives",
+      "rendering"
+    ]
+  }
+]
